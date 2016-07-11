@@ -54,7 +54,6 @@ public class GuideActivity extends Activity {
 		mViewPager.setAdapter(new GuideAdapter());// 设置数据
 
 		mViewPager.setOnPageChangeListener(new OnPageChangeListener() {
-
 			@Override
 			public void onPageSelected(int position) {
 				// 某个页面被选中
@@ -70,7 +69,6 @@ public class GuideActivity extends Activity {
 				// 当页面滑动过程中的回调
 				System.out.println("当前位置:" + position + ";移动偏移百分比:"
 						+ positionOffset);
-
 			}
 			@Override
 			public void onPageScrollStateChanged(int state) {

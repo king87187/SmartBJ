@@ -2,7 +2,8 @@ package smartbj.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.Window;
+
+import com.iceblood.dalu.smartbj.R;
 
 /**
  * 主页面
@@ -15,8 +16,7 @@ public class MainActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		requestWindowFeature(Window.FEATURE_NO_TITLE);// 去掉标题,
-		// 必须在setContentView之前调用
+		setContentView(R.layout.activty_main);
 
 	}
 }

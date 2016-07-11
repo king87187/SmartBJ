@@ -48,10 +48,8 @@ public class GuideActivity extends Activity {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);// 去掉标题,
 														// 必须在setContentView之前调用
 		setContentView(R.layout.activity_guide);
-
 		mViewPager = (ViewPager) findViewById(R.id.vp_guide);
 		btnStart = (Button) findViewById(R.id.btn_start);
-
 		initData();// 先初始化数据
 		mViewPager.setAdapter(new GuideAdapter());// 设置数据
 
@@ -66,7 +64,6 @@ public class GuideActivity extends Activity {
 					btnStart.setVisibility(View.INVISIBLE);
 				}
 			}
-
 			@Override
 			public void onPageScrolled(int position, float positionOffset,
 					int positionOffsetPixels) {
@@ -75,7 +72,6 @@ public class GuideActivity extends Activity {
 						+ positionOffset);
 
 			}
-
 			@Override
 			public void onPageScrollStateChanged(int state) {
 				// 页面状态发生变化的回调
@@ -92,7 +88,6 @@ public class GuideActivity extends Activity {
 			}
 		});
 	}
-
 	// 初始化数据
 	private void initData() {
 		mImageViewList = new ArrayList<ImageView>();
@@ -101,7 +96,6 @@ public class GuideActivity extends Activity {
 			view.setBackgroundResource(mImageIds[i]);// 通过设置背景,可以让宽高填充布局
 			// view.setImageResource(resId)
 			mImageViewList.add(view);
-
 		}
 	}
 

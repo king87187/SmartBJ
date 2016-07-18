@@ -104,12 +104,12 @@
         "source": "D:\\Android Starter\\SmartBJ\\SmartBJ\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "D:\\Android Starter\\SmartBJ\\SmartBJ\\library\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_content_include.xml",
-        "source": "D:\\Android Starter\\SmartBJ\\SmartBJ\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
         "merged": "D:\\Android Starter\\SmartBJ\\SmartBJ\\library\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_bar.xml",
         "source": "D:\\Android Starter\\SmartBJ\\SmartBJ\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\Android Starter\\SmartBJ\\SmartBJ\\library\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\Android Starter\\SmartBJ\\SmartBJ\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_screen_content_include.xml"
     },
     {
         "merged": "D:\\Android Starter\\SmartBJ\\SmartBJ\\library\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_singlechoice_material.xml",
@@ -124,12 +124,12 @@
         "source": "D:\\Android Starter\\SmartBJ\\SmartBJ\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "D:\\Android Starter\\SmartBJ\\SmartBJ\\library\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
-        "source": "D:\\Android Starter\\SmartBJ\\SmartBJ\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
         "merged": "D:\\Android Starter\\SmartBJ\\SmartBJ\\library\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_item_material.xml",
         "source": "D:\\Android Starter\\SmartBJ\\SmartBJ\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\Android Starter\\SmartBJ\\SmartBJ\\library\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "D:\\Android Starter\\SmartBJ\\SmartBJ\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "D:\\Android Starter\\SmartBJ\\SmartBJ\\library\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media_narrow.xml",
